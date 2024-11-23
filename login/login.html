@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <!-- Título da seção de login -->
+        <h2>Login</h2>
+        <!-- Formulário de login com o ID "loginForm" para identificar no JavaScript -->
+        <form id="loginForm">
+            <!-- Campo de entrada para o nome de usuário, com ID "username" -->
+            <input type="text" id="username" placeholder="Username" required>
+            <!-- Campo de entrada para a senha, com ID "password" -->
+            <input type="password" id="password" placeholder="Password" required>
+            <!-- Botão de envio do formulário com o texto "Entrar" -->
+            <button type="submit">Entrar</button>
+        </form>
+        <!-- Link para redirecionar o usuário para a página de cadastro caso não tenha uma conta -->
+        <p>Não tem uma conta? <a href="">Cadastre-se aqui</a></p>
+    </div>
+    <!-- Importa o arquivo JavaScript externo para adicionar funcionalidades ao formulário -->
+    <script src="script.js"></script>
+</body>
+</body>
+</html>
